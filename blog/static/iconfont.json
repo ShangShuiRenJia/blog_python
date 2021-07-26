@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1642636",
+      "name": "位置",
+      "font_class": "placeholder",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "2570123",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "2832511",
+      "name": "位置",
+      "font_class": "weizhi1",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "3040357",
+      "name": "客户位置信息采集",
+      "font_class": "kehuweizhixinxicaiji",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "3759396",
+      "name": "位置",
+      "font_class": "weizhi2",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "7677301",
+      "name": "位置",
+      "font_class": "weizhi3",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8565381",
+      "name": "icon_位置",
+      "font_class": "icon_weizhi",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "15055280",
+      "name": "定位位置目的地",
+      "font_class": "dingweiweizhimudedi",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "15766525",
+      "name": "位置",
+      "font_class": "weizhi4",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "16744694",
+      "name": "当前位置",
+      "font_class": "dangqianweizhi",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    }
+  ]
+}

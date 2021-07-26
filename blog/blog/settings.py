@@ -118,3 +118,32 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 静态资源配置：设置静态资源的路径
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+
+# redis配置
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # redis的0号库
+        "LOCATION": "redis://127.0.0.1:6379/0",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient"
+        }
+    },
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # redis的1号库
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient"
+        }
+    }
+}
+# session由数据库存储改为redis存储
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+# 指定保存到1号库
+SESSION_CACHE_ALIAS = "session"
